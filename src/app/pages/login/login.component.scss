@@ -1,0 +1,96 @@
+.login-container {
+    background-color: #F0F2F5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 180px;
+}
+
+.header {
+    height: 70%;
+    max-width: 995px;
+    margin: 0 auto;
+    text-align: left;
+    .header-left {
+        margin-left: -18px;
+        margin-top: -60px;
+        img {
+            max-width: 300px;
+            height: auto;
+            margin-left: -1.5vw;
+            margin-bottom: -0.5vw;
+        }
+        .header-text {
+            padding-right: 55px;
+            h2 {
+                font-size: 30px;
+                line-height: 33px;
+            }
+        }
+    }
+}
+
+.form-card {
+    max-width: 410px;
+    padding: 15px;
+    background-color: #fff;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin-top: 60px;
+    .input {
+        width: 100%;
+        height: 60px;
+    }
+    button {
+        border: none;
+    }
+    .block-btn {
+        border: none;
+        border-radius: 6px;
+        font-size: 20px;
+        line-height: 48px;
+        padding: 0 16px;
+        width: 332px;
+        font-weight: 600;
+    }
+    .register-btn {
+        font-size: 17px;
+        font-weight: 600;
+        padding: 12px 15px;
+    }
+    .link-case {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        a {
+            color: #1877f2;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+    .vertical-line {
+        height: 1px;
+        width: 100%;
+        background-color: #dadde1;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 18px;
+        line-height: 3;
+    }
+    .form-footer {
+        a {
+            font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: black !important;
+        }
+    }
+}

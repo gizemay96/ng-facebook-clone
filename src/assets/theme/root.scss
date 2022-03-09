@@ -1,0 +1,34 @@
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-primary {
+    background-color: $color-primary !important;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+
+.btn-success {
+    background-color: $color-success !important;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0.4em 0 1em 0;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: $color-primary;
+}
+
+.black-link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+a {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
